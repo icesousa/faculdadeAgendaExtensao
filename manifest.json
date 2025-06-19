@@ -1,17 +1,16 @@
 {
-  "name": "Faculdade – Botão Agenda",
-  "description": "Insere \"Adicionar ao Google Agenda\" nos cards de provas.",
+  "name": "Kroton – Botão Agenda Lembretes",
+  "description": "Adicione lembretes no Google Agenda para suas atividades, avaliações e provas no AVA Kroton e receba notificações.",
   "version": "1.0",
   "manifest_version": 3,
 
   "content_scripts": [
     {
       "matches": [
-        "https://*.www.colaboraread.com.br/*"  
+        "https://*.www.colaboraread.com.br/*"
       ],
       "js": ["content.js"],
       "run_at": "document_idle"
     }
   ]
-
 }
