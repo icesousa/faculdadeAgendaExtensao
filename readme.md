@@ -55,7 +55,7 @@ Contribuições são **muito bem‑vindas**! Você pode:
 
 ```bash
 # clonar e instalar
-git clone https://github.com/seu-usuario/botao-agenda-provas-kroton.git
+git clone https://github.com/icesousa/faculdadeAgendaExtensao.git
 cd botao-agenda-provas-kroton
 npm install   # só se você quiser usar ferramentas de build
 ```
