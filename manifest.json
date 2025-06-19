@@ -1,0 +1,17 @@
+{
+  "name": "Faculdade – Botão Agenda",
+  "description": "Insere \"Adicionar ao Google Agenda\" nos cards de provas.",
+  "version": "1.0",
+  "manifest_version": 3,
+
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.www.colaboraread.com.br/*"  
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+
+}
